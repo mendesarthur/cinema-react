@@ -1,0 +1,94 @@
+.root{
+    display:flex;
+    flex-direction:column;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 18px;
+}
+
+.root nav {
+    background-color: rgb(0, 0, 0);
+    color:rgb(240, 248, 255);
+    padding: 8px;
+    display: flex;
+    flex-direction:column;
+    
+}
+
+@media (min-width:440px) {
+    .root nav {
+        flex-direction:row;
+        align-items: baseline;
+    }
+}
+
+.root main {
+    background-color: cyan;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.root nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: inherit;
+    display: flex;
+    justify-content:center;
+    padding: 16px;
+}
+
+.root nav a.brand {
+    font-weight: 700;
+    font-size: 1.5em;
+}
+.root nav a:not(.brand) {
+    text-transform: uppercase;
+}
+
+.root nav a:hover {
+    background-color: #666;
+}
+
+.root main p {
+    margin-bottom: 8px ;
+}
+
+@media (min-width: 900px) {
+    .root main p {
+        margin: 0px auto;
+        width:900px;
+    }
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+button{
+    height: 25px;
+    width: 100px;
+}
+
+input {
+    height: 20px;
+    width: 200px;
+}
+span {
+    
+    width: 100px;
+    height: 20px;
+}
+
+
+img {
+    width: 150px;
+    height: 213px;
+   
+
+}
