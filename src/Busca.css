@@ -23,9 +23,9 @@
 }
 
 .root main {
-    background-color: cyan;
-    padding: 100px;
     display: flex;
+    background-color: #eee;
+    padding: 10px;
     flex-direction: column;
 }
 .root nav a {
@@ -60,35 +60,66 @@
     }
 }
 
-ul{
+.root main form {
     display: flex;
-    flex-direction: row;
+}
+
+.root main form input {
+    flex-grow: 1;
+    margin: 0;
+    border-style: none;
+    border-radius: 15px 0px 0px 15px;
+    padding:0px 15px;
+    font-size: 1em;
+    color: #666;
+}
+
+.root main form button {
+    flex-basis: 100px;
+    height: 30px;
+    margin: 0;
+    border-style: none;
+    background-color: orange;
+    border-radius: 15px 0px 15px;
+    text-transform: uppercase;
+    font-size: 0.8em;
+}
+
+.root main ul {
+    margin-top: 20px;
+
+    display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 10px;
-    padding: 10px;
+
 }
 
+.root main ul li {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    width: 350px;
+    height: 213px;
+    background-color: white;
+    margin-right: 16px;
+    margin-bottom: 16px ;
 
-button{
-    height: 25px;
-    width: 100px;
+
 }
 
-input {
-    height: 20px;
-    width: 200px;
-}
-span {
-    
-    width: 100px;
-    height: 20px;
-}
-
-
-img {
+.root main ul li img.poster {
     width: 150px;
     height: 213px;
-   
+    margin-right: 8px;
+}
+
+.root main ul li .title {
+    background-color: orange;
+    font-size: 1.5em;
+}
+
+.root main ul li .year {
+    font-size: 0.7em;
+    background-color: paleturquoise;
 
 }
