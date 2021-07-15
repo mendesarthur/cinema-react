@@ -102,7 +102,7 @@
     height: 213px;
     background-color: white;
     margin-right: 16px;
-    margin-bottom: 16px ;
+    margin-bottom: 16px;
 
 
 }
@@ -114,12 +114,12 @@
 }
 
 .root main ul li .title {
-    background-color: orange;
     font-size: 1.5em;
+
 }
 
 .root main ul li .year {
     font-size: 0.7em;
-    background-color: paleturquoise;
+    
 
 }
