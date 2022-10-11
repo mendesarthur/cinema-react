@@ -1,1 +1,1 @@
-# Consumindo uma api com React js
+# Consumindo api de filmes com React js
